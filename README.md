@@ -1,1 +1,23 @@
 # Game-of-Luck-and-Choices
+
+print("Welcome to Treasure Island\n         ERRRRR")
+print("Your mission is to find the treasure.")
+red= str('Red')
+blue= str('Blue')
+wait=str('walk')
+choose1=input("1st. Choose Your Path left or right: ")
+left=str('left')
+if choose1==left:
+    choose2=input("\n2nd. Would you like to swim or walk: ")
+    if choose2==wait:
+        choose3=input("\n3rd. You came across three door.which door would you go through?\nRed, Blue, yellow: ")
+        if (choose3==red ):
+            print("Game Over")
+        if(choose3==blue):
+            print("Game Over")
+        else:
+            print("you win")
+    else :
+        print("You Are Dead, Game Over")
+else:
+    print("You Are Dead, Game Over")
